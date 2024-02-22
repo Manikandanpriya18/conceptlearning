@@ -24,7 +24,7 @@ while(i<count)
 }
 return(
     <>
-    <h1>Whileloop</h1>
+    <h1>Whileloop function</h1>
     {output}
     <button onClick={handleLoop}>Loop</button>
     </>

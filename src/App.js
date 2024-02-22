@@ -30,12 +30,27 @@ import { Counter } from './component/Workout/Useeffectstate';
 import Numberobj from './component/Workout/Numberobj';
 import Stringobj from './component/Stringobj';
 import Stringfunction from './component/Workout/Stringfunction';
+import Dialogbox from './component/Workout/Dialogbox';
+import Arrayobj from './component/Workout/Arrayobj';
+import Dateobj from './component/Workout/Dateobj';
+import Mathobj from './component/Workout/Mathobj';
+import FormExample from './component/Validation';
+import Logicformcontrol from './component/Workout/Logicformcontrol';
+import { Component1 } from './component/Workout/Component1';
 
 
 
 function App() {
   return (
     <Card>
+      <Component1/>
+    <Logicformcontrol/>
+      <FormExample/>
+           <Whileloop/>
+      <Mathobj/>
+      <Dateobj/>
+      <Arrayobj/>
+      <Dialogbox/>
       <Stringfunction/>
       <Stringobj/>
       <Numberobj/>
@@ -63,7 +78,7 @@ function App() {
       {/* <Loopcontrol/>
       <Forloopstate/>
       <Forloop/>
-      <Whileloop/>
+ 
       <Switchcase/>
       <Ifstatemnt/>
       <Spreadrest/>
